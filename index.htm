@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>PyTexas Twitter Feed</title>
+    <link href="/static/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+
+  <body>
+
+    <h1>#PyTexas Tweets</h1>
+    <h2><span id="clients">0</span> client(s) connected.</h2>
+
+    <ul id="tweets">
+    </ul>
+
+    <script type="text/javascript" src="/static/jquery.js"></script>
+    <script type="text/javascript" src="/static/client.js"></script>
+    <script type="text/javascript">
+      TWEETHOSE.hostName = "{{ host }}";
+    </script>
+  </body>
+
+</html>
